@@ -41,7 +41,7 @@ Once authenticated, every `curl` example in this repo works as-is — no manual 
 | [List repository branches](./list-repository-branches.md) | `GET /repos/{owner}/{repo}/branches` | Returns all branches for a repository with their latest commit SHA and protection status. |
 | [List repository commits](./list-repository-commits.md) | `GET /repos/{owner}/{repo}/commits` | Returns the commit history for a repository with author details, parent references, and signature verification. |
 | [Get repository contents](./get-repository-contents.md) | `GET /repos/{owner}/{repo}/contents/{path}` | Returns a file's contents Base64-encoded, along with its SHA and metadata. |
-
+| [Get user profile](./get-a-user.md.md) | `GET /users/{user-name}` | Returns a repo profile
 ---
 
 ## Prerequisites
